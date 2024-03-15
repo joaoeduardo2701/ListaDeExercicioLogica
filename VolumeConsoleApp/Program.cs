@@ -1,7 +1,8 @@
 ﻿// Ex 01: Crie um programa para calcular o volume de uma caixa retangular
+
 using System.Globalization;
 
-namespace VolumeConsoleApp
+namespace Volume.ConsoleApp
 {
     internal class Program
     {
@@ -20,7 +21,7 @@ namespace VolumeConsoleApp
 
             double volume = altura * largura * comprimento;
 
-            Console.WriteLine("Volume: " + volume.ToString("F2"), CultureInfo.InvariantCulture);
+            Console.WriteLine("Volume: " + volume.ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
