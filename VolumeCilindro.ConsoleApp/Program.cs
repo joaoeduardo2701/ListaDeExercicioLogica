@@ -2,7 +2,7 @@
 
 using System.Globalization;
 
-namespace VolumeCilindro.ConsoleApp
+namespace ex03.ConsoleApp
 {
     internal class Program
     {

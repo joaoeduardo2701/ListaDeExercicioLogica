@@ -2,7 +2,7 @@
 
 using System.Globalization;
 
-namespace Temperatura2.ConsoleApp;
+namespace ex06.ConsoleApp;
 
 internal class Program
 {

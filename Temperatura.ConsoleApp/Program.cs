@@ -2,7 +2,7 @@
 
 using System.Globalization;
 
-namespace Temperatura.ConsoleApp
+namespace ex02.ConsoleApp
 {
     internal class Program
     {
@@ -13,7 +13,7 @@ namespace Temperatura.ConsoleApp
             Console.WriteLine("Digite o valor da temperatura em Fahrenheit: ");
             double temperatura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            double temperaturaFinal = (temperatura - 32) / 1.8;
+            double temperaturaFinal = (temperatura - 32) * 5 / 9;
 
             Console.WriteLine("O valor dessa temperatura em Celcius é: " +  temperaturaFinal.ToString("F2", CultureInfo.InvariantCulture));
         }

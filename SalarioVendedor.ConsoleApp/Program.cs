@@ -3,7 +3,7 @@
 
 using System.Globalization;
 
-namespace SalarioVendedor.ConsoleApp;
+namespace ex07.ConsoleApp;
 
 internal class Program
 {

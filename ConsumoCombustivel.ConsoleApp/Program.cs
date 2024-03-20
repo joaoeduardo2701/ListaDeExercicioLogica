@@ -2,7 +2,7 @@
 
 using System.Globalization;
 
-namespace ConsumoCombustivel.ConsoleApp
+namespace ex04.ConsoleApp
 {
     internal class Program
     {

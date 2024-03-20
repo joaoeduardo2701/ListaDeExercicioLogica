@@ -2,12 +2,14 @@
 
 using System.Globalization;
 
-namespace Volume.ConsoleApp;
+namespace ex01.ConsoleApp;
 
 internal class Program
 {
     static void Main(string[] args)
     {
+        #region INPUT DE DADOS
+
         Console.WriteLine("-- Calculadora de Volume --");
         
         Console.WriteLine("Digite o tamanho da altura: ");
@@ -19,8 +21,15 @@ internal class Program
         Console.WriteLine("Digite o tamanho do comprimento: ");
         double comprimento = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-        double volume = altura * largura * comprimento;
+        #endregion
 
+        #region PROCESSAMENTO DE DADOS
+        double volume = altura * largura * comprimento;
+        #endregion
+
+        #region OUTPUT DE DADOS
         Console.WriteLine("Volume: " + volume.ToString("F2", CultureInfo.InvariantCulture));
+        #endregion
+
     }
 }

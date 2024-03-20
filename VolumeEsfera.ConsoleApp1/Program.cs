@@ -2,7 +2,7 @@
 
 using System.Globalization;
 
-namespace VolumeEsfera.ConsoleApp1;
+namespace ex05.ConsoleApp1;
 
 internal class Program
 {
