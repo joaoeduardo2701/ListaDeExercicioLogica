@@ -6,6 +6,23 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Digite o valor de A: ");
+        int a = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Digite o valor de B: ");
+        int b = int.Parse(Console.ReadLine());
+
+        int c;
+
+        if (a == b)
+        {
+            c = a + b;
+        }
+        else
+        {
+            c = a * b;
+        }
+
+        Console.WriteLine("Resultado: " + c);
     }
 }
